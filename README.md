@@ -1,7 +1,7 @@
 # NBA-Ranking
 
 ## Introduction
-In this repo, I have used python scrape "ESPN" data and extracted information like:
+In this repo, I have used python to scrape "ESPN" data and extracted information like:
 
 - Teams participating in playoffs
 - Information about the players from each roster:
