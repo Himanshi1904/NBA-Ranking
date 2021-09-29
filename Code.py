@@ -31,7 +31,7 @@ career_stats_df.to_csv("NBA_player_stats_all_2020-2021.csv")
 
 all_stats_df = all_players_df.join(career_stats_df)
 
-print("========================================")
+print("\n========================================\n")
 print("Print first three values from Salary field:")
 print(all_stats_df['salary'].head(3))
 

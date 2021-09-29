@@ -96,5 +96,5 @@ def save_df_sql(all_stats_df):
     engine = db.create_engine('sqlite:///save_dataframe.db', echo=False)
     sqlite_connection = engine.connect()
     sqlite_table = "all_players_stats"
-    all_stats_df.to_sql(sqlite_table, sqlite_connection, if_exists='fail')
+    all_stats_df.to_sql(sqlite_table, sqlite_connection, if_exists='replace')
     sqlite_connection.close()
