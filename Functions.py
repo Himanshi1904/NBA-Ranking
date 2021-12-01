@@ -10,7 +10,7 @@ import re
 import json
 from time import sleep
 
-
+# Few component's idea adapted from/Reference from - # https://github.com/erilu/web-scraping-NBA-statistics
 def build_team() -> dict[str, str]:
     """
     This function access espn's nba page and extract names of each roster. For each roster name, URL of the team page
