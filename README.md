@@ -11,7 +11,7 @@ In this repo, I have used python to scrape "ESPN" data and extracted information
     
 - We are using the above information to create a metric (weighted ratio) that helps us in selecting top 10 NBA players.
 
-## Prerequisites
+## Prerequisites required:
  
 - Programming Language - Python (Code tested on 3.9.4)
 - SQLite (Comes preinstalled in macOS)
